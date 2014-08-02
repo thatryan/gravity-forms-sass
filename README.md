@@ -14,6 +14,12 @@ All of the defualt and advanced fields, as well as the Gravity Forms Ready Class
 
 Though a few aspects are still in early stages of dev ;)
 
+## Usage
+
+Be sure to visit Forms -> Settings in your WordPress Dashboard and set **Output CSS** to **No**, optionally while you are there set **Output HTML5** to **Yes**. Save and go play.
+
+This was setup running WordPress Version `4.0-beta2-20140801` and Gravity Forms Version `1.8.9`.
+
 ## Contribute
 
 If you want to help out, sweet! I just started this and there is a lot to do I am sure....
@@ -32,6 +38,27 @@ Some parts of the styling still need to be addressed,
 7. ...
 
 Mostly this is a running list of what I intend to address
+
+## Screenshots
+
+Here is a visual overview or the basic styling offeres thus far.
+
+
+All Form Fields
+
+![All Fields](screenshots/all-fields.png)
+
+Required Fields with Errors
+
+![Required Fields](screenshots/required-fields.png)
+
+Gravity Forms Ready Classes
+
+![Ready Classes](screenshots/ready-classes.png)
+
+Multi-Step Form
+
+![Multi Part](screenshots/multi-part.png)
 
 ## Resources
 
