@@ -1,0 +1,92 @@
+label{
+	color: $input-label;
+	font-weight: 700;
+}
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="file"],
+textarea,
+select {
+	@include form-spacing( padding, $form-space );
+	background: $input-bg;
+	color: $input-color;
+	border: 1px solid $input-border;
+	line-height: normal;
+	display: block;
+	width: 100%;
+	box-shadow: $input-shadow;
+	transition: $input-transition;
+
+	&:focus{
+		border-color: $input-border-focus;
+		outline: none;
+	}
+}
+
+input[type="file"] {
+
+	&:hover { cursor: pointer; }
+}
+
+input[type="search"]{
+	width: auto;
+	display: inline-block;
+}
+
+select {
+	height: ceil( $form-line-height * 1.33 );
+}
+select[multiple],
+select[size] {
+	height: auto;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	width: auto;
+	display: inline-block;
+}
+
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+	@include form-spacing( padding, $form-space $form-space * 2 );
+	@include form-font-size( 14px );
+	background: $form-button-background;
+	color: $form-button-color;
+	display: inline-block;
+	font-weight: 400;
+	text-transform: uppercase;
+	border: none;
+	transition: $input-transition;
+
+	&:hover{
+		background: $form-button-background-hover;
+	}
+}
+
+/**
+ * WebKit-style focus
+ *
+ * @link https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/mixins/_tab-focus.scss [props]
+ */
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button {
+
+	&:focus{
+		outline: thin dotted;
+		outline: 5px auto -webkit-focus-ring-color;
+		outline-offset: -2px;
+	}
+}

@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<forms version="1.8.9">
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1" postAuthor="1" postCategory="3" postFormat="0" postStatus="draft">
+		<title><![CDATA[Form Field Testing]]></title>
+		<description><![CDATA[This form was built to test styling for the various fields.]]></description>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="1" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Standard List]]></description>
+				<label><![CDATA[Standard Fields]]></label>
+			</field>
+			<field id="2" size="medium" type="text">
+				<description><![CDATA[Single Line Text]]></description>
+				<label><![CDATA[Text]]></label>
+			</field>
+			<field id="3" size="medium" type="textarea">
+				<description><![CDATA[Paragraph field]]></description>
+				<label><![CDATA[Paragraph]]></label>
+			</field>
+			<field id="4" size="medium" type="select" enableEnhancedUI="0">
+				<description><![CDATA[Drop down field]]></description>
+				<label><![CDATA[Drop Down]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="5" size="medium" type="multiselect" enableEnhancedUI="0">
+				<description><![CDATA[Multiple select field]]></description>
+				<label><![CDATA[Multi-Select]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="6" size="medium" type="number" numberFormat="decimal_dot">
+				<label><![CDATA[Number]]></label>
+			</field>
+			<field id="7" size="medium" type="checkbox">
+				<label><![CDATA[Checkboxes]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="8" size="medium" type="radio">
+				<label><![CDATA[Radio Buttons]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+				<enableOtherChoice><![CDATA[1]]></enableOtherChoice>
+			</field>
+			<field id="9" size="medium" type="hidden">
+				<label><![CDATA[Hidden Field]]></label>
+			</field>
+			<field id="10" size="medium" type="html" displayOnly="1">
+				<content><![CDATA[This is an HTML block]]></content>
+				<label><![CDATA[HTML Block]]></label>
+			</field>
+			<field id="11" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Advanced List]]></description>
+				<label><![CDATA[Advanced Fields]]></label>
+			</field>
+			<field id="12" size="medium" type="name" nameFormat="simple">
+				<description><![CDATA[Simple format]]></description>
+				<label><![CDATA[Name]]></label>
+			</field>
+			<field id="13" size="medium" type="name">
+				<description><![CDATA[Normal format]]></description>
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="13.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="13.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="14" size="medium" type="name" nameFormat="extended">
+				<description><![CDATA[Extended format]]></description>
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="14.2">
+						<label><![CDATA[Prefix]]></label>
+					</input>
+					<input id="14.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="14.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+					<input id="14.8">
+						<label><![CDATA[Suffix]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="15" size="medium" type="date" calendarIconType="none" dateType="datepicker">
+				<description><![CDATA[No icon]]></description>
+				<label><![CDATA[Date Picker]]></label>
+			</field>
+			<field id="23" size="medium" type="date" calendarIconType="calendar" dateType="datepicker">
+				<description><![CDATA[With icon]]></description>
+				<label><![CDATA[Date Picker]]></label>
+			</field>
+			<field id="24" size="medium" type="date" calendarIconType="none" dateType="datefield">
+				<description><![CDATA[Date field]]></description>
+				<label><![CDATA[Date Picker]]></label>
+			</field>
+			<field id="25" size="medium" type="date" calendarIconType="none" dateType="datedropdown">
+				<description><![CDATA[Date drop down]]></description>
+				<label><![CDATA[Date Picker]]></label>
+			</field>
+			<field id="16" size="medium" type="time">
+				<description><![CDATA[12 hour format]]></description>
+				<label><![CDATA[Time]]></label>
+			</field>
+			<field id="28" size="medium" type="time">
+				<description><![CDATA[24 hour format]]></description>
+				<label><![CDATA[Time]]></label>
+				<timeFormat><![CDATA[24]]></timeFormat>
+			</field>
+			<field id="17" size="medium" type="phone" phoneFormat="standard">
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="18" size="medium" type="address" addressType="international">
+				<description><![CDATA[International]]></description>
+				<label><![CDATA[Address]]></label>
+				<inputs>
+					<input id="18.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="18.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="18.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="18.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="18.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="18.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="29" size="medium" type="address" addressType="us">
+				<description><![CDATA[USA]]></description>
+				<label><![CDATA[Address]]></label>
+				<defaultCountry><![CDATA[United States]]></defaultCountry>
+				<inputs>
+					<input id="29.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="29.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="29.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="29.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="29.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="29.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="30" size="medium" type="address" addressType="canadian">
+				<description><![CDATA[Canada]]></description>
+				<label><![CDATA[Address]]></label>
+				<defaultCountry><![CDATA[Canada]]></defaultCountry>
+				<inputs>
+					<input id="30.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="30.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="30.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="30.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="30.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="30.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="19" size="medium" type="website">
+				<label><![CDATA[Website]]></label>
+			</field>
+			<field id="20" size="medium" type="email">
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="21" size="medium" type="fileupload">
+				<label><![CDATA[File]]></label>
+			</field>
+			<field id="26" size="medium" type="fileupload">
+				<description><![CDATA[Multi file upload]]></description>
+				<label><![CDATA[File]]></label>
+				<multipleFiles><![CDATA[1]]></multipleFiles>
+				<maxFiles><![CDATA[2]]></maxFiles>
+			</field>
+			<field id="22" size="medium" type="list">
+				<label><![CDATA[List]]></label>
+			</field>
+			<field id="27" size="medium" type="list">
+				<description><![CDATA[Multi column]]></description>
+				<label><![CDATA[List]]></label>
+				<enableColumns><![CDATA[1]]></enableColumns>
+				<choices>
+					<choice>
+						<text><![CDATA[Column 1]]></text>
+						<value><![CDATA[Column 1]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Column 2]]></text>
+						<value><![CDATA[Column 2]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Column 3]]></text>
+						<value><![CDATA[Column 3]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="31" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Post Fields List]]></description>
+				<label><![CDATA[Post Fields]]></label>
+			</field>
+			<field id="32" size="medium" type="post_title">
+				<label><![CDATA[Post Title]]></label>
+			</field>
+			<field id="33" size="medium" type="post_content">
+				<label><![CDATA[Post Body]]></label>
+			</field>
+			<field id="34" size="small" type="post_excerpt">
+				<label><![CDATA[Post Excerpt]]></label>
+			</field>
+			<field id="35" size="large" type="post_tags">
+				<description><![CDATA[Single line text]]></description>
+				<label><![CDATA[Post Tags]]></label>
+			</field>
+			<field id="36" size="large" type="post_tags" inputType="select">
+				<description><![CDATA[Drop down]]></description>
+				<label><![CDATA[Post Tags]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="37" size="large" type="post_tags" inputType="multiselect">
+				<description><![CDATA[Multi select]]></description>
+				<label><![CDATA[Post Tags]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="38" size="large" type="post_tags" inputType="checkbox">
+				<description><![CDATA[Checkboxes]]></description>
+				<label><![CDATA[Post Tags]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="39" size="large" type="post_tags" inputType="radio">
+				<description><![CDATA[Radio buttons]]></description>
+				<label><![CDATA[Post Tags]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="40" size="medium" type="post_category" displayAllCategories="1" inputType="select">
+				<description><![CDATA[Drop Down]]></description>
+				<label><![CDATA[Post Category]]></label>
+				<categoryInitialItem><![CDATA[Select a category]]></categoryInitialItem>
+				<categoryInitialItemEnabled><![CDATA[1]]></categoryInitialItemEnabled>
+			</field>
+			<field id="42" size="medium" type="post_category" inputType="checkbox">
+				<description><![CDATA[Checkboxes]]></description>
+				<label><![CDATA[Post Category]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[aciform]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[antiquarianism]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[arrangement]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[asmodeus]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[sub]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="43" size="medium" type="post_category" inputType="radio">
+				<description><![CDATA[Radio Buttons]]></description>
+				<label><![CDATA[Post Category]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[aciform]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[antiquarianism]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[arrangement]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[asmodeus]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[sub]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="44" size="medium" type="post_category" inputType="multiselect">
+				<description><![CDATA[Multi select]]></description>
+				<label><![CDATA[Post Category]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[aciform]]></text>
+						<value><![CDATA[3]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[antiquarianism]]></text>
+						<value><![CDATA[4]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[arrangement]]></text>
+						<value><![CDATA[5]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[asmodeus]]></text>
+						<value><![CDATA[6]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[sub]]></text>
+						<value><![CDATA[47]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="41" size="medium" type="post_image" displayCaption="1" displayDescription="1" displayTitle="1">
+				<label><![CDATA[Post Image]]></label>
+				<allowedExtensions><![CDATA[jpg, jpeg, png, gif]]></allowedExtensions>
+			</field>
+			<field id="46" size="medium" type="post_custom_field" inputType="text" numberFormat="decimal_dot">
+				<description><![CDATA[Select Existing]]></description>
+				<label><![CDATA[Post Custom Field]]></label>
+			</field>
+			<field id="45" size="medium" type="post_custom_field" inputType="text" numberFormat="decimal_dot">
+				<description><![CDATA[Add new]]></description>
+				<label><![CDATA[Post Custom Field]]></label>
+			</field>
+			<field id="47" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Pricing Fields List]]></description>
+				<label><![CDATA[Pricing Fields]]></label>
+			</field>
+			<field id="48" size="medium" type="product" inputType="singleproduct">
+				<description><![CDATA[Single]]></description>
+				<label><![CDATA[Product Name]]></label>
+				<inputs>
+					<input id="48.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="48.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="48.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+			</field>
+			<field id="49" size="medium" type="product" inputType="select" enablePrice="1">
+				<description><![CDATA[Drop down]]></description>
+				<label><![CDATA[Product Name]]></label>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="50" size="medium" type="product" inputType="radio" enablePrice="1">
+				<description><![CDATA[Radio buttons]]></description>
+				<label><![CDATA[Product Name]]></label>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="51" size="medium" type="product" inputType="price">
+				<description><![CDATA[user defined]]></description>
+				<label><![CDATA[Price]]></label>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="52" size="medium" type="product" inputType="hiddenproduct">
+				<description><![CDATA[Hidden]]></description>
+				<label><![CDATA[Product Name]]></label>
+				<inputs>
+					<input id="52.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="52.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="52.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="53" size="medium" type="product" inputType="calculation">
+				<description><![CDATA[Calculation]]></description>
+				<label><![CDATA[Product Name]]></label>
+				<inputs>
+					<input id="53.1">
+						<label><![CDATA[Name]]></label>
+					</input>
+					<input id="53.2">
+						<label><![CDATA[Price]]></label>
+					</input>
+					<input id="53.3">
+						<label><![CDATA[Quantity]]></label>
+					</input>
+				</inputs>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<enableCalculation><![CDATA[1]]></enableCalculation>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="54" size="medium" type="quantity" inputType="number" productField="53" numberFormat="decimal_dot">
+				<description><![CDATA[Number]]></description>
+				<label><![CDATA[Quantity]]></label>
+			</field>
+			<field id="55" size="medium" type="quantity" inputType="select" productField="53" numberFormat="decimal_dot">
+				<description><![CDATA[Drop down]]></description>
+				<label><![CDATA[Quantity]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="56" size="medium" type="quantity" inputType="hidden" productField="53" numberFormat="decimal_dot">
+				<description><![CDATA[Hidden]]></description>
+				<label><![CDATA[Quantity]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="57" size="medium" type="option" inputType="select" productField="53" enablePrice="1">
+				<description><![CDATA[Drop down]]></description>
+				<label><![CDATA[Option]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="58" size="medium" type="option" inputType="checkbox" productField="53" enablePrice="1">
+				<description><![CDATA[Checkboxes]]></description>
+				<label><![CDATA[Option]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="59" size="medium" type="option" inputType="radio" productField="53" enablePrice="1">
+				<description><![CDATA[Radio buttons]]></description>
+				<label><![CDATA[Option]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Option]]></text>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="60" size="medium" type="shipping" inputType="singleshipping">
+				<description><![CDATA[Single]]></description>
+				<label><![CDATA[Shipping]]></label>
+				<basePrice><![CDATA[$0.00]]></basePrice>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+						<price><![CDATA[0.00]]></price>
+					</choice>
+				</choices>
+			</field>
+			<field id="61" size="medium" type="total">
+				<label><![CDATA[Total]]></label>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="53c41ec7da0a2" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="53c41ec7d9c8d">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1" postAuthor="1" postCategory="3" postFormat="0" postStatus="draft">
+		<title><![CDATA[Form Field Testing - Required Fields]]></title>
+		<description><![CDATA[This form was built to test styling for the various fields with required attributes. * Note, not all fields are represented as many operate the same way so they would be duplicates *]]></description>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="1" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Standard List]]></description>
+				<label><![CDATA[Standard Fields]]></label>
+			</field>
+			<field id="2" isRequired="1" size="medium" type="text">
+				<description><![CDATA[Single Line Text]]></description>
+				<label><![CDATA[Text]]></label>
+			</field>
+			<field id="3" isRequired="1" size="medium" type="textarea">
+				<description><![CDATA[Paragraph field]]></description>
+				<label><![CDATA[Paragraph]]></label>
+			</field>
+			<field id="4" isRequired="1" size="medium" type="select" enableEnhancedUI="0">
+				<description><![CDATA[Drop down field]]></description>
+				<label><![CDATA[Drop Down]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="5" isRequired="1" size="medium" type="multiselect" enableEnhancedUI="0">
+				<description><![CDATA[Multiple select field]]></description>
+				<label><![CDATA[Multi-Select]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+						<value><![CDATA[First Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+						<value><![CDATA[Second Choice]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+						<value><![CDATA[Third Choice]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="6" isRequired="1" size="medium" type="number" numberFormat="decimal_dot">
+				<label><![CDATA[Number]]></label>
+			</field>
+			<field id="7" isRequired="1" size="medium" type="checkbox">
+				<label><![CDATA[Checkboxes]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="8" isRequired="1" size="medium" type="radio">
+				<label><![CDATA[Radio Buttons]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+				<enableOtherChoice><![CDATA[1]]></enableOtherChoice>
+			</field>
+			<field id="11" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Advanced List]]></description>
+				<label><![CDATA[Advanced Fields]]></label>
+			</field>
+			<field id="13" isRequired="1" size="medium" type="name">
+				<description><![CDATA[Normal format]]></description>
+				<label><![CDATA[Name]]></label>
+				<inputs>
+					<input id="13.3">
+						<label><![CDATA[First]]></label>
+					</input>
+					<input id="13.6">
+						<label><![CDATA[Last]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="23" isRequired="1" size="medium" type="date" calendarIconType="calendar" dateType="datepicker">
+				<description><![CDATA[With icon]]></description>
+				<label><![CDATA[Date Picker]]></label>
+			</field>
+			<field id="25" isRequired="1" size="medium" type="date" calendarIconType="none" dateType="datedropdown">
+				<description><![CDATA[Date drop down]]></description>
+				<label><![CDATA[Date Picker]]></label>
+			</field>
+			<field id="16" isRequired="1" size="medium" type="time">
+				<description><![CDATA[12 hour format]]></description>
+				<label><![CDATA[Time]]></label>
+			</field>
+			<field id="17" isRequired="1" size="medium" type="phone" phoneFormat="standard">
+				<label><![CDATA[Phone]]></label>
+			</field>
+			<field id="18" isRequired="1" size="medium" type="address" addressType="international">
+				<description><![CDATA[International]]></description>
+				<label><![CDATA[Address]]></label>
+				<inputs>
+					<input id="18.1">
+						<label><![CDATA[Street Address]]></label>
+					</input>
+					<input id="18.2">
+						<label><![CDATA[Address Line 2]]></label>
+					</input>
+					<input id="18.3">
+						<label><![CDATA[City]]></label>
+					</input>
+					<input id="18.4">
+						<label><![CDATA[State / Province]]></label>
+					</input>
+					<input id="18.5">
+						<label><![CDATA[ZIP / Postal Code]]></label>
+					</input>
+					<input id="18.6">
+						<label><![CDATA[Country]]></label>
+					</input>
+				</inputs>
+			</field>
+			<field id="19" isRequired="1" size="medium" type="website">
+				<label><![CDATA[Website]]></label>
+			</field>
+			<field id="20" isRequired="1" size="medium" type="email">
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="21" isRequired="1" size="medium" type="fileupload">
+				<label><![CDATA[File]]></label>
+			</field>
+			<field id="26" isRequired="1" size="medium" type="fileupload">
+				<description><![CDATA[Multi file upload]]></description>
+				<label><![CDATA[File]]></label>
+				<multipleFiles><![CDATA[1]]></multipleFiles>
+				<maxFiles><![CDATA[2]]></maxFiles>
+			</field>
+			<field id="22" isRequired="1" size="medium" type="list">
+				<label><![CDATA[List]]></label>
+			</field>
+			<field id="27" isRequired="1" size="medium" type="list">
+				<description><![CDATA[Multi column]]></description>
+				<label><![CDATA[List]]></label>
+				<enableColumns><![CDATA[1]]></enableColumns>
+				<choices>
+					<choice>
+						<text><![CDATA[Column 1]]></text>
+						<value><![CDATA[Column 1]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Column 2]]></text>
+						<value><![CDATA[Column 2]]></value>
+					</choice>
+					<choice>
+						<text><![CDATA[Column 3]]></text>
+						<value><![CDATA[Column 3]]></value>
+					</choice>
+				</choices>
+			</field>
+			<field id="31" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[Styling the fields in the Post Fields List]]></description>
+				<label><![CDATA[Post Fields]]></label>
+			</field>
+			<field id="41" isRequired="1" size="medium" type="post_image" displayCaption="1" displayDescription="1" displayTitle="1">
+				<label><![CDATA[Post Image]]></label>
+				<allowedExtensions><![CDATA[jpg, jpeg, png, gif]]></allowedExtensions>
+			</field>
+		</fields>
+		<notifications>
+			<notification id="53c41ec7d9c8d">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+		<confirmations>
+			<confirmation id="53c41ec7da0a2" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+	</form>
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Form Field Testing - Multi Part]]></title>
+		<description><![CDATA[This is testing for the multi-step forms.]]></description>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="2" size="medium" type="text">
+				<label><![CDATA[Untitled]]></label>
+			</field>
+			<field id="3" size="medium" type="textarea">
+				<label><![CDATA[Untitled]]></label>
+			</field>
+			<field id="1" size="medium" type="page" displayOnly="1">
+				<nextButton type="text">
+					<text><![CDATA[Next]]></text>
+				</nextButton>
+				<previousButton type="text">
+					<text><![CDATA[Previous]]></text>
+				</previousButton>
+			</field>
+			<field id="4" size="medium" type="select">
+				<label><![CDATA[Untitled]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="5" size="medium" type="checkbox">
+				<label><![CDATA[Untitled]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+		</fields>
+		<lastPageButton type="text">
+			<text><![CDATA[Previous]]></text>
+		</lastPageButton>
+		<pagination type="steps">
+			<pages>
+				<page><![CDATA[First Step]]></page>
+				<page><![CDATA[Second Step]]></page>
+			</pages>
+		</pagination>
+		<confirmations>
+			<confirmation id="53c5b54c8954c" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="53c5b54c8916e">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+	<form labelPlacement="top_label" useCurrentUserAsAuthor="1">
+		<title><![CDATA[Form Field Testing - Ready Classes]]></title>
+		<description><![CDATA[This form is to test out the available Gravity Forms 'CSS Ready Classes' ( <a href="http://www.gravityhelp.com/documentation/page/CSS_Ready_Classes "> Ready Classes</a> ). ]]></description>
+		<descriptionPlacement><![CDATA[below]]></descriptionPlacement>
+		<button type="text">
+			<text><![CDATA[Submit]]></text>
+		</button>
+		<fields>
+			<field id="6" size="medium" type="section" displayOnly="1">
+				<label><![CDATA[Two Columns]]></label>
+			</field>
+			<field id="1" size="medium" type="text">
+				<cssClass><![CDATA[gf_left_half]]></cssClass>
+				<label><![CDATA[Left Column]]></label>
+			</field>
+			<field id="2" size="medium" type="text">
+				<cssClass><![CDATA[gf_right_half]]></cssClass>
+				<label><![CDATA[Right Column]]></label>
+			</field>
+			<field id="7" size="medium" type="section" displayOnly="1">
+				<label><![CDATA[Three Columns]]></label>
+			</field>
+			<field id="3" size="medium" type="text">
+				<cssClass><![CDATA[gf_left_third]]></cssClass>
+				<label><![CDATA[Left Column]]></label>
+			</field>
+			<field id="4" size="medium" type="text">
+				<cssClass><![CDATA[gf_middle_third]]></cssClass>
+				<label><![CDATA[Middle Column]]></label>
+			</field>
+			<field id="5" size="medium" type="text">
+				<cssClass><![CDATA[gf_right_third]]></cssClass>
+				<label><![CDATA[Right Column]]></label>
+			</field>
+			<field id="8" size="medium" type="section" displayOnly="1">
+				<label><![CDATA[Inline]]></label>
+			</field>
+			<field id="9" size="medium" type="email">
+				<cssClass><![CDATA[gf_inline]]></cssClass>
+				<label><![CDATA[Email]]></label>
+			</field>
+			<field id="10" size="small" type="text">
+				<cssClass><![CDATA[gf_inline]]></cssClass>
+				<label><![CDATA[Text]]></label>
+			</field>
+			<field id="11" size="medium" type="select">
+				<cssClass><![CDATA[gf_inline]]></cssClass>
+				<label><![CDATA[Untitled]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="12" size="medium" type="website">
+				<label><![CDATA[Website]]></label>
+			</field>
+			<field id="13" size="medium" type="section" displayOnly="1">
+				<label><![CDATA[Lists]]></label>
+			</field>
+			<field id="14" size="medium" type="radio">
+				<cssClass><![CDATA[gf_list_2col]]></cssClass>
+				<label><![CDATA[Two Columns]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fourth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fifth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sixth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Seventh Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Eighth Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="15" size="medium" type="radio">
+				<cssClass><![CDATA[gf_list_3col]]></cssClass>
+				<label><![CDATA[Three Columns]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fourth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fifth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sixth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Seventh Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Eighth Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="16" size="medium" type="radio">
+				<cssClass><![CDATA[gf_list_4col]]></cssClass>
+				<label><![CDATA[Four Columns]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fourth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fifth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sixth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Seventh Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Eighth Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="17" size="medium" type="radio">
+				<cssClass><![CDATA[gf_list_5col]]></cssClass>
+				<label><![CDATA[Five Columns]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fourth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fifth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sixth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Seventh Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Eighth Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="18" size="medium" type="checkbox">
+				<cssClass><![CDATA[gf_list_inline]]></cssClass>
+				<label><![CDATA[Inline]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fourth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fifth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sixth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Seventh Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Eighth Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="19" size="medium" type="checkbox">
+				<cssClass><![CDATA[gf_list_height_25]]></cssClass>
+				<label><![CDATA[List Height 25]]></label>
+				<choices>
+					<choice>
+						<text><![CDATA[First Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Second Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Third Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fourth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Fifth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Sixth Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Seventh Choice]]></text>
+					</choice>
+					<choice>
+						<text><![CDATA[Eighth Choice]]></text>
+					</choice>
+				</choices>
+			</field>
+			<field id="21" size="medium" type="section" displayOnly="1">
+				<label><![CDATA[Other Classes]]></label>
+			</field>
+			<field id="20" size="medium" type="section" displayOnly="1">
+				<description><![CDATA[<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>]]></description>
+				<cssClass><![CDATA[gf_scroll_text]]></cssClass>
+				<label><![CDATA[Title Inside Scrolling Text]]></label>
+			</field>
+			<field id="22" size="medium" type="time">
+				<description><![CDATA[The am/pm selector should be hidden on this Time input]]></description>
+				<cssClass><![CDATA[gf_hide_ampm]]></cssClass>
+				<label><![CDATA[Hide AM/PM]]></label>
+			</field>
+			<field id="23" size="medium" type="textarea">
+				<description><![CDATA[The character amount remaining number should be hidden.]]></description>
+				<cssClass><![CDATA[gf_hide_charleft]]></cssClass>
+				<label><![CDATA[Hide Characters Left]]></label>
+				<maxLength><![CDATA[100]]></maxLength>
+			</field>
+		</fields>
+		<confirmations>
+			<confirmation id="53c5b694d756a" isDefault="1" type="message">
+				<name><![CDATA[Default Confirmation]]></name>
+				<message><![CDATA[Thanks for contacting us! We will get in touch with you shortly.]]></message>
+			</confirmation>
+		</confirmations>
+		<notifications>
+			<notification id="53c5b694d7152">
+				<to><![CDATA[{admin_email}]]></to>
+				<name><![CDATA[Admin Notification]]></name>
+				<event><![CDATA[form_submission]]></event>
+				<toType><![CDATA[email]]></toType>
+				<subject><![CDATA[New submission from {form_title}]]></subject>
+				<message><![CDATA[{all_fields}]]></message>
+			</notification>
+		</notifications>
+	</form>
+</forms>

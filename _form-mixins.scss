@@ -1,0 +1,70 @@
+/**
+ * Form mixins
+ * Handles the calculations and abstracted fun
+ */
+
+
+/**
+ * Font sizing mixin
+ *
+ * @link https://github.com/csswizardry/inuit.css/blob/master/generic/_mixins.scss [props]
+ *
+ * @example
+ * @include form-font-size(10px);
+ */
+
+@mixin form-font-size( $font-size ) {
+	font-size: $font-size;
+	font-size: ( $font-size / $form-font-size ) * 1rem;
+}
+
+/**
+ * Micro clearfix mixin
+ *
+ * @link http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php [props]
+ *
+ * @example
+ * @include form-clearfix;
+ */
+
+@mixin form-clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+/**
+ * Spacing mixin
+ *
+ * @link https://twitter.com/HugoGiraudel [props]
+ *
+ * @example
+ * @include form-spacing(padding, 0 $form-space auto);
+ */
+
+@mixin form-spacing($spacing-type, $args) {
+    $fallback: ();
+    $regular: ();
+
+    @each $value in $args {
+      @if type-of($value) == "number" and unit($value) == "px" {
+        $fallback: append($fallback, $value);
+        $regular: append($regular, $value / $form-font-size * 1rem);
+      }
+
+      @else if type-of($value) == "number" and unit($value) == "rem" {
+        $fallback: append($fallback, $value / 1rem * $form-font-size);
+        $regular: append($regular, $value);
+      }
+
+      @else {
+        $fallback: append($fallback, $value);
+        $regular: append($regular, $value);
+      }
+    }
+
+    #{$spacing-type}: $fallback;
+    #{$spacing-type}: $regular;
+}
