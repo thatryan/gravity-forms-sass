@@ -24,7 +24,7 @@
 .gsection {
 	@include form-spacing( margin-bottom, $form-space );
 	@include form-spacing( padding-bottom, $form-space );
-	border-bottom: 1px solid $muted;
+	border-bottom: 1px solid $form-muted;
 
 	.gsection_title { @include form-spacing( margin-bottom, $form-space ); }
 }
@@ -299,6 +299,13 @@ input.datepicker_with_icon {
 	  &:focus { border-color: darken($input-error, 10% ); }
 	}
 
+}
+
+/* honeypot field, hide it from human beings */
+.gform_validation_container {
+	display: none;
+	position: absolute;
+	left: -9000px;
 }
 
 .ui-datepicker {
