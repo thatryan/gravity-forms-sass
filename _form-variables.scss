@@ -1,22 +1,22 @@
-$input-bg:				#fff !default;
-$input-color:				#999 !default;
-$input-border:			#ddd !default;
-$input-border-focus:			#999 !default;
-$input-label:				#666 !default;
-$input-error:				#CA3C3C !default;
-$input-shadow:			1px 1px 2px #EEE inset !default;
-$input-transition:			all 0.3s ease-in-out !default;
+$input-bg:           #fff !default;
+$input-color:        #999 !default;
+$input-border:       #ddd !default;
+$input-border-focus: #999 !default;
+$input-label:        #666 !default;
+$input-error:        #ca3c3c !default;
+$input-shadow:       1px 1px 2px #eee inset !default;
+$input-transition:   all .3s ease-in-out !default;
 
-$form-button-background:		#333 !default;
-$form-button-background-hover:	#0078E7 !default;
-$form-button-color:			#fff !default;
+$form-button-background:       #333 !default;
+$form-button-background-hover: #0078e7 !default;
+$form-button-color:            #fff !default;
 
-$form-required:			#F00 !default;
-$form-muted:				#858585 !default;
+$form-required: #f00 !default;
+$form-muted:    #858585 !default;
 
-$form-font-size:			16px !default;
-$form-line-height:			$form-font-size * 1.5 !default;
-$form-space:				$form-line-height / 2 !default;
+$form-font-size:   16px !default;
+$form-line-height: $form-font-size * 1.5 !default;
+$form-space:       $form-line-height / 2 !default;
 
 $white: #fff !default;
-$gray: #aaa !default;
+$gray:  #aaa !default;
