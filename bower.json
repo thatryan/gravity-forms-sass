@@ -1,0 +1,24 @@
+{
+	"name": "gravity-forms-sass",
+	"description": "Replacement styling for Gravity Forms WordPress plugin written in Sass.",
+	"version": "1.1.0",
+	"keywords": [
+		"gravity-forms",
+		"sass"
+	],
+	"homepage": "http://github.com/thatryan/gravity-forms-sass",
+	"license": "MIT",
+	"main": [
+		"_form-default.scss",
+		"_form-gravity.scss",
+		"_form-mixins.scss",
+		"_form-variables.scss"
+	],
+	"ignore": [
+		"**/.*",
+		"screenshots",
+		"CHANGELOG.md",
+		"license.txt",
+		"README.md"
+	]
+}
