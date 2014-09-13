@@ -22,7 +22,9 @@ This was setup running WordPress Version `4.0-beta2-20140801` and Gravity Forms 
 
 ## Contribute
 
-If you want to help out, sweet! I just started this and there is a lot to do I am sure....
+Want to help out? Awesome!
+
+Please don't make pull requests against the `master` branch. This is the latest, stable code. You can make a pull request against the `dev` (future release) branch.
 
 
 ## TODO
