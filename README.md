@@ -3,9 +3,9 @@
 I love the Gravity Forms plugin for WordPress, but never cared for the excessive stylesheets and complicated selectors it introduced. This project aims to offer styling for GForms using Sass and minimal selectors.
 
 
-## What is Covered
+## Included
 
-All of the defualt and advanced fields, as well as the Gravity Forms Ready Classes. Included in this repository are several form exports that contain a vast array of fileds and options I created for testing.
+All of the default and advanced fields, as well as the Gravity Forms Ready Classes. Included in this repository are several form exports that contain a vast array of fileds and options I created for testing.
 
 * All form fields
 * Required fields
@@ -13,6 +13,12 @@ All of the defualt and advanced fields, as well as the Gravity Forms Ready Class
 * Ready classes
 
 Though a few aspects are still in early stages of dev ;)
+
+## Install
+
+* [Download latest release](https://github.com/thatryan/gravity-forms-sass/archive/master.zip)
+* Clone the repo: `https://github.com/thatryan/gravity-forms-sass.git`
+* Install with [Bower](http://bower.io/): `bower install gravity-forms-sass`
 
 ## Usage
 
@@ -31,7 +37,7 @@ Please don't make pull requests against the `master` branch. This is the latest,
 
 Some parts of the styling still need to be addressed, 
 
-1. Drop down and multiselect "enhanced UI"
+1. Drop down and multi-select "enhanced UI"
 2. Progress bar on multi select
 3. Post Custom Fields - only tested "single line text" option
 4. Check shipping various methods, only 1 allowed per form
@@ -41,26 +47,10 @@ Some parts of the styling still need to be addressed,
 
 Mostly this is a running list of what I intend to address
 
-## Screenshots
+## Visual
 
-Here is a visual overview or the basic styling offeres thus far.
+For a visual overview or the basic styling thus far there are some [screenshots](screenshots/).
 
-
-All Form Fields
-
-![All Fields](screenshots/all-fields.png)
-
-Required Fields with Errors
-
-![Required Fields](screenshots/required-fields.png)
-
-Gravity Forms Ready Classes
-
-![Ready Classes](screenshots/ready-classes.png)
-
-Multi-Step Form
-
-![Multi Part](screenshots/multi-part.png)
 
 ## Resources
 
@@ -72,6 +62,4 @@ Links 'n stuff
 
 ## Changelog
 
-### Version 1.0.0
-
-* Brand new, let's get this party started.
+See [changelog](CHANGELOG.md).
