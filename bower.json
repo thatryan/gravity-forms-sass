@@ -9,10 +9,10 @@
 	"homepage": "http://github.com/thatryan/gravity-forms-sass",
 	"license": "MIT",
 	"main": [
-		"_form-default.scss",
-		"_form-gravity.scss",
+		"_form-variables.scss",
 		"_form-mixins.scss",
-		"_form-variables.scss"
+		"_form-gravity.scss",
+		"_form-default.scss"
 	],
 	"ignore": [
 		"**/.*",
